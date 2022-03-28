@@ -3,7 +3,7 @@ function move() {
   if (i == 0) {
     i = 1;
     var elem = document.getElementsByClassName("myBar");
-    var width = 10;
+    var width = 50;
     var id = setInterval(frame, 10);
     function frame() {
       if (width >= 100) {
