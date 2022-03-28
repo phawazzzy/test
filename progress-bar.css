@@ -1,0 +1,108 @@
+body {
+  margin: 10%;
+}
+
+.myBar {
+  width: 50%;
+  height: 30px;
+  text-align: right;
+  color: #3e637d;
+  border-radius: 15px;
+  border-color: red;
+  line-height: 30px;
+  padding-right: 1%;
+}
+
+#yellow {
+  background: repeating-linear-gradient(
+    -45deg,
+    #ffdb86,
+    #ffe090 10px,
+    #ffe090 10px,
+    #ffdb86 10px
+  );
+}
+#blue {
+  background: repeating-linear-gradient(
+    -45deg,
+    #91d1f9,
+    #91d1f9 5px,
+    #a6d5f3 5px,
+    #8bccf1 10px
+  );
+}
+#white {
+  background: repeating-linear-gradient(
+    -45deg,
+    #fefefe,
+    #fefefe 5px,
+    #fffafa 5px,
+    #f5f5f5 10px
+  );
+}
+#red {
+  background: repeating-linear-gradient(
+    -45deg,
+    #ff7a69,
+    #ff9f92 5px,
+    #ff9f92 5px,
+    #ff7a69 10px
+  );
+}
+#green {
+  background: repeating-linear-gradient(
+    -45deg,
+    #b3e374,
+    #ebebeb 5px,
+    #ebebeb 5px,
+    #b3e374 10px
+  );
+}
+
+.progress-bar {
+  background-color: rgb(235, 235, 235);
+  width: 80%;
+  border-radius: 15px;
+  margin-bottom: 25px;
+}
+
+.button-18 {
+  align-items: center;
+  background-color: #0a66c2;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s,
+    box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s,
+    color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+}
+
+.button-18:hover,
+.button-18:focus {
+  background-color: #16437e;
+  color: #ffffff;
+}
+
+.button-18:active {
+  background: #09223b;
+  color: rgb(255, 255, 255, 0.7);
+}
